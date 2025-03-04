@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="login.css"> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            background-image: url('loginbg.gif'); 
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
-    <h1>SING-UP PAGE </h1>
-   
+
+    <div class="logo">
+        <a href="homepage.html"><button> 
+            <img src="logo.jpg" alt="Home Icon" style="height: 120px;width: 120px;"/>
+            </button></a>
+       </div>
+
+    <div>
+       
+        <div class="login">
+            
     <form>
-        <input type="text" placeholder="email">
-        <input type="text" placeholder="password">
-        <input type="number" id="quantity" name="quantity" min="1" max="9999" placeholder="OTP">
-        <button>SING UP</button>
-        <h1>ALREADY HAVE AN ACCOUNT?</h1>
+        <br><br>
+        <br><br>
+        <div class="loginbox">
+        <h1>SIGNUP HERE:</h1><br><br>    
+        <input type="email" placeholder="email"><br><br>
+        <input type="password" placeholder="password"><br><br>          
+        <input type="password" placeholder="RE-ENTER password"><br><br><br>
+    </div>
+    <div class="loginbutton">
+        <button> LOGIN </button>
+    </div>
+        <div class="signinbutton">
+        <H1>DONT HAVE AN ACCOUNT?</H1>
+        </div>      
+        <div class="signup">
         <button>
-        <a href ="login.html">LOG-IN</a>
-        </button>
+            
+        <a href="login.html">LOG-IN</a>
+        
+        </button></div>
+        <br><br>
+        <br><br>
+    </div>
     </form>
-    <button>
-    <a href="homepage.html">HOMEPAGE</a>
-    </button>
+    </div>
 </body>
 </html>
